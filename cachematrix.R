@@ -1,6 +1,14 @@
 ## These functions compute the inverse of a matrix.  Once the inverse 
 ## has been calculated, it is stored in the cache, and instead of calculating
 ## it again, it is fetced from the cache when needed again.
+## Usage example:
+## source('cachematrix.r')
+## xmat <- matrix(1:4, 2,2)
+## xmat.cache <- makeCacheMatrix(xmat)
+## xmat.inv <- cacheSolve(xmat.cache)
+## xmat.inv <- cacheSolve(xmat.cache)
+
+
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
