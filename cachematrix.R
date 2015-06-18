@@ -7,7 +7,9 @@
 ## xmat.cache <- makeCacheMatrix(xmat)
 ## xmat.inv <- cacheSolve(xmat.cache)
 ## xmat.inv <- cacheSolve(xmat.cache)
-
+## newxmat <- matrix(2:5, 2, 2)
+## xmat.cache$setMatrix(newxmat)
+## xmat.inv <- cacheSolve(xmat.cache)
 
 
 ## This function creates a special "matrix" object that can cache its inverse.
